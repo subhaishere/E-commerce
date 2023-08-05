@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&family=Rubik:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    width: 90vw;
+}
+
+.collapse {
+    margin-left: 22vw;
+}
+
+.nav-link:hover {
+    color: #FF5151 !important;
+    font-family: Rubik;
+}
+
+.Poster {
+    width: 95vw;
+    height: 80vh;
+    border-radius: 20px;
+    position: relative;
+    background: linear-gradient(90deg, rgba(252, 203, 144, 0.44) 0%, rgba(255, 154, 158, 0.38) 100%);
+
+}
+
+#postertext {
+    position: absolute;
+    left: 107px;
+    top: 100px;
+    /* border: 1px solid red; */
+}
+
+#posterlink {
+    /* width: 13vw; */
+    position: absolute;
+    top: 45vh;
+    left: 6vw;
+    /* border: 1px solid red; */
+}
+
+#posterimg {
+    width: 31vw;
+    position: absolute;
+    left: 64vw;
+    bottom: 0;
+
+}
+
+.bannerheading {
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+}
+
+.collections {
+    width: 670px;
+    height: 63px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cltn-btn {
+    Width: 130px;
+    border: none;
+    padding-top: 15px;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.05);
+    font-weight: 900;
+    background-color: white;
+
+}
+
+.cltn-btn:hover {
+    color: rgba(255, 255, 255, 1);
+    background: linear-gradient(180deg, rgba(255, 81, 81, 0.5) 0%, #ff3b2d 100%);
+    font-family: Rubik;
+    border-radius: 10px;
+}
+
+.collection_cards {
+    /* border: 1px solid red; */
+    width: 1240px;
+    height: 330px;
+    justify-content: space-evenly;
+}
+
+.collection_card1,
+.collection_card2,
+.collection_card3 {
+    /* border: 1px solid red; */
+    width: 253px;
+}
+
+.collectionimage1 {
+    height: 201px;
+    background: linear-gradient(180deg, rgba(252, 203, 144, 0.44) 0%, rgba(255, 154, 158, 0.38) 100%);
+
+}
+
+.collectionimage2 {
+    height: 204px;
+    width: 252px;
+    background: linear-gradient(180deg, rgba(252, 203, 144, 0.44) 0%, rgba(255, 154, 158, 0.38) 100%);
+}
+
+.collectionimage3 {
+    height: 200px;
+    width: 252px;
+    background: linear-gradient(180deg, rgba(252, 203, 144, 0.44) 0%, rgba(255, 154, 158, 0.38) 100%);
+}
+
+.collectiontext {
+    padding-left: 15px;
+    margin-top: 3vh;
+
+}
+
+.collectionprice,
+.collectioncard {
+    padding-left: 15px;
+}
+
+.new-arrival_section {
+    width: 86vw;
+    height: 82vh;
+    margin: auto;
+}
+
+.newarrival_imgs {
+    width: 41vw;
+}
+
+#newarrival_img2 {
+    margin-top: 20px;
+}
+
+#newarrival_img3 {
+    margin-left: 40px;
+    height: 80vh;
+}
+
+.categorycardbox {
+    /* border: 1px solid red; */
+    width: 86vw;
+    height: 98vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow-y: auto;
+
+
+}
+
+.categorycards {
+    /* border: 1px solid red; */
+    height: 340px;
+    Width: 270px;
+    border: 1px;
+    border-radius: 25px;
+    background: linear-gradient(0deg, rgba(144, 144, 144, 0.25), rgba(144, 144, 144, 0.25)),
+        linear-gradient(0deg, #F0F0F0, #F0F0F0);
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-top: 15px;
+
+}
+
+.footer {
+    border: 1px solid red;
+    background: rgba(252, 203, 144, 0.15);
+    Width: 1440px;
+    Height: 483px;
+
+}
+
+.brandName {
+    color: #FF5E3A;
+    font-family: Rubik;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#bttext {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 0.9rem;
+    line-height: 1.875rem;
+    /* 187.5% */
+    width: 15.875rem;
+}
+
+#bttext2 {
+    color: #FF5E3A;
+    font-family: Rubik;
+    font-size: 0.9rem;
+    line-height: 1.875rem;
+    /* 187.5% */
+    width: 15.875rem;
+}
+
+.table-1 {
+    padding: 0.3rem;
+    font-size: 1.5rem;
+}
+
+.table-1>thead {
+    font-weight: 700;
+}
+
+.table-1>tbody {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 1rem;
+    line-height: 1.875rem;
+}
+
+.my-footer {
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+.cell {
+    gap: 0.3rem;
+    align-items: center;
+}
+
+.conlogo {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #ff5e3a;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 4px;
+    padding-right: 0.5px;
+}
+
+.conlogo>img {
+    width: 20px;
+    height: 20px;
+}
+
+/* ******************Responsive view****************************** */
+@media screen and (max-width:1024px) {}
+
+
+@media screen and (max-width:768px) {
+
+    .Poster {
+        margin: auto;
+        height: 25vh;
+        width: 85vw;
+    }
+
+    #postertext {
+        left: 43px;
+        width: 104px;
+        top: 22px;
+    }
+
+    #posterlink {
+        width: 63px;
+        top: 80px;
+        left: 37px;
+    }
+
+    #posterimg {
+        height: 25vh;
+        right: 50px;
+        left: 566px;
+        width: 84px;
+    }
+
+    .collections {
+        width: 356px;
+        height: 63px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .collection_cards {
+        width: 29vw;
+        height: fit-content;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .newarrival {
+        height: fit-content;
+    }
+
+    #newarrival_img1 {
+        margin-top: -43px;
+    }
+
+    #newarrival_img2 {
+        margin-top: 7px;
+    }
+
+    #newarrival_img3 {
+        margin-left: 40px;
+        height: fit-content;
+    }
+
+    .new-arrival_section {
+        width: 36vw;
+        flex-direction: column;
+    }
+
+    .mycol1 {
+        position: relative;
+        left: 44vw;
+        height: fit-content;
+    }
+
+    .mycol2 {
+        margin-top: 46vh;
+        left: -95px;
+        position: relative;
+        padding-inline: 20px
+    }
+
+}
+
+@media screen and (max-width:425px) {
+
+    .Poster {
+        margin: auto;
+        height: 25vh;
+        width: 153vw;
+
+    }
+
+    .bannerheading {
+        width: 20vw;
+        position: relative;
+        left: 27vw;
+    }
+
+    .collections {
+        width: 670px;
+        height: 63px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #postertext {
+        left: 43px;
+        width: 104px;
+        top: 22px;
+    }
+
+    #posterlink {
+        width: 63px;
+        top: 80px;
+        left: 37px;
+
+    }
+
+    #posterimg {
+        height: 25vh;
+    }
+
+    .mycol1 {
+        position: relative;
+        left: 96vw;
+        height: fit-content;
+    }
+
+    .mycol2 {
+        margin-top: 46vh;
+        left: -12px;
+        position: relative;
+        padding-inline: 20px
+    }
+
+}
