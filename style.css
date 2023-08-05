@@ -250,11 +250,8 @@
 }
 
 /* ******************Responsive view****************************** */
-@media screen and (max-width:1024px) {}
 
-
-@media screen and (max-width:768px) {
-
+@media screen and (max-width: 768px) {
     .Poster {
         margin: auto;
         height: 25vh;
@@ -330,14 +327,11 @@
     }
 
 }
-
-@media screen and (max-width:425px) {
-
+@media screen and (max-width: 425px) {
     .Poster {
         margin: auto;
         height: 25vh;
         width: 153vw;
-
     }
 
     .bannerheading {
